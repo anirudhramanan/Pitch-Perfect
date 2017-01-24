@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class RecordingViewController: UIViewController {
 
     @IBOutlet weak var stopRecordButton: UIButton!
     @IBOutlet weak var recordButton: UIButton!
@@ -28,11 +28,13 @@ class ViewController: UIViewController {
     @IBAction func record(_ sender: Any) {
         self.stopRecordButton.isEnabled = true
         self.recordButton.isEnabled = false
+        self.view.backgroundColor = UIColor(red: 122/255, green: 129/255, blue: 255/255, alpha: 1)
     }
 
     @IBAction func stopRecording(_ sender: Any) {
         self.recordButton.isEnabled = true
         self.stopRecordButton.isEnabled = false
+        self.view.backgroundColor = UIColor.white
     }
 }
 
