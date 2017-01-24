@@ -146,6 +146,7 @@
 				TargetAttributes = {
 					66B70DA71E3758DD00B3DFEF = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = HDGV388MNK;
 						ProvisioningStyle = Automatic;
 					};
 					66B70DBB1E3758DD00B3DFEF = {
@@ -339,6 +340,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HDGV388MNK;
 				INFOPLIST_FILE = "Pitch Perfect/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.anirudh.Pitch-Perfect";
@@ -351,6 +353,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HDGV388MNK;
 				INFOPLIST_FILE = "Pitch Perfect/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.anirudh.Pitch-Perfect";
