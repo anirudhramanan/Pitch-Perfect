@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Recording View Controller-->
+        <!--Pitch Perfect-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="RecordingViewController" customModule="Pitch_Perfect" customModuleProvider="target" sceneMemberID="viewController">
@@ -52,7 +52,7 @@
                             <constraint firstItem="0Sp-ta-wjt" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Ocg-wB-Jvy"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="tTU-8D-CaB"/>
+                    <navigationItem key="navigationItem" title="Pitch Perfect" id="tTU-8D-CaB"/>
                     <connections>
                         <outlet property="recordButton" destination="h3O-FN-Wl5" id="iGg-Gk-y4G"/>
                         <outlet property="stopRecordButton" destination="QbX-PH-X3y" id="lw2-mm-OUn"/>
@@ -146,8 +146,8 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kIv-oh-NwH" userLabel="Stopbutton">
                                                 <rect key="frame" x="139.5" y="0.0" width="64" height="64"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="64" id="Ffd-Uo-v0b"/>
-                                                    <constraint firstAttribute="height" constant="64" id="Wd1-ZP-IKY"/>
+                                                    <constraint firstAttribute="height" constant="64" id="EAj-j4-qxD"/>
+                                                    <constraint firstAttribute="width" constant="64" id="OeL-yC-OIe"/>
                                                 </constraints>
                                                 <state key="normal" image="stopRecordButton"/>
                                                 <connections>
@@ -155,20 +155,16 @@
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="kIv-oh-NwH" secondAttribute="bottom" id="fMx-JL-26H"/>
-                                        </constraints>
                                     </stackView>
                                 </subviews>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="8hk-YN-tds" firstAttribute="top" secondItem="Km9-Lt-8sN" secondAttribute="bottom" constant="20" id="1sB-n2-AWD"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Km9-Lt-8sN" secondAttribute="trailing" id="i73-hW-OW2"/>
-                            <constraint firstItem="Y9X-V7-ZIy" firstAttribute="top" secondItem="sGT-c0-Hjz" secondAttribute="bottom" constant="173" id="kaz-HT-5M9"/>
-                            <constraint firstItem="Km9-Lt-8sN" firstAttribute="top" secondItem="sGT-c0-Hjz" secondAttribute="bottom" id="oVh-b7-jun"/>
-                            <constraint firstItem="Km9-Lt-8sN" firstAttribute="leading" secondItem="nwz-hc-FgZ" secondAttribute="leadingMargin" id="rGa-Hc-2FI"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Km9-Lt-8sN" secondAttribute="trailing" id="GOI-Lh-Sxv"/>
+                            <constraint firstItem="8hk-YN-tds" firstAttribute="top" secondItem="Km9-Lt-8sN" secondAttribute="bottom" constant="20" id="Tn4-5q-ZZw"/>
+                            <constraint firstItem="Km9-Lt-8sN" firstAttribute="top" secondItem="sGT-c0-Hjz" secondAttribute="bottom" id="kKB-PT-H5Z"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="Km9-Lt-8sN" secondAttribute="leading" id="r8k-x2-yL2"/>
                         </constraints>
                     </view>
                     <connections>

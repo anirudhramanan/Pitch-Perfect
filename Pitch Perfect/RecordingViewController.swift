@@ -30,7 +30,6 @@ class RecordingViewController: UIViewController, AVAudioRecorderDelegate {
     @IBAction func record(_ sender: Any) {
         self.stopRecordButton.isEnabled = true
         self.recordButton.isEnabled = false
-        self.view.backgroundColor = UIColor(red: 122/255, green: 129/255, blue: 255/255, alpha: 1)
         
         let dirPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0]
         let recordingName = "recordedVoice.wav"
