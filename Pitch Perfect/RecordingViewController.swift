@@ -17,14 +17,7 @@ class RecordingViewController: UIViewController, AVAudioRecorderDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
         self.stopRecordButton.isEnabled = false
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     @IBAction func record(_ sender: Any) {
@@ -59,8 +52,8 @@ class RecordingViewController: UIViewController, AVAudioRecorderDelegate {
     func audioRecorderDidFinishRecording(_ recorder: AVAudioRecorder, successfully flag: Bool) {
         if flag {
             performSegue(withIdentifier: "stopRecording", sender: recorder.url)
-        }else{
-            
+        } else{
+            showAlertView(title: "Warning!", message: "Unable to Record")
         }
     }
     
@@ -70,5 +63,12 @@ class RecordingViewController: UIViewController, AVAudioRecorderDelegate {
             let audioUrl = sender as! URL
             playSoundViewController.recordedAudioURL = audioUrl
         }
+    }
+    
+    func showAlertView(title:String, message:String){
+        let alertController = UIAlertController(title:title, message:message, preferredStyle: .alert)
+        let cancelAction: UIAlertAction = UIAlertAction(title: "OK", style : .cancel)
+        alertController.addAction(cancelAction)
+        self.present(alertController, animated: true, completion: nil)
     }
 }
