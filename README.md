@@ -4,5 +4,7 @@ Ever wondered what you’d sound like as a Chipmunk or Darth Vader? Wonder no mo
 
 ### Screenshots
 
-![alt tag](https://github.com/anirudhramanan/Pitch-Perfect/blob/master/image1.png)
-![alt tag](https://github.com/anirudhramanan/Pitch-Perfect/blob/master/image2.png)
+<p align="center">
+  <img src="https://github.com/anirudhramanan/Pitch-Perfect/blob/master/image1.png" width="350"/>
+  <img src="https://github.com/anirudhramanan/Pitch-Perfect/blob/master/image2.png" width="350"/>
+</p>
